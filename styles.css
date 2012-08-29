@@ -1,0 +1,31 @@
+@import url(fonts/fonts.css);
+/* line 16, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+html, body {
+  font-family: "Futura-Book";
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* line 22, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+h1 {
+  margin: 0;
+}
+
+/* line 25, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+/* line 29, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+a:visited {
+  color: goldenrod;
+}
+
+/* line 38, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+.title {
+  width: 100%;
+  height: 10em;
+  background: lightblue;
+}

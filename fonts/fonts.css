@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'Futura-Book';
+	src: url('Futura-Book.eot?#') format('eot'),
+		 url('Futura-Book.svg#Futura-Book') format('svg'),
+		 url('Futura-Book.woff') format('woff'),
+		 url('Futura-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Futura-Book-Italic';
+	src: url('Futura-Book-Italic.eot?#') format('eot'),
+		 url('Futura-Book-Italic.svg#Futura-Book-Italic') format('svg'),
+		 url('Futura-Book-Italic.woff') format('woff'),
+		 url('Futura-Book-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Futura-Medium';
+	src: url('Futura-Medium.eot?#') format('eot'),
+		 url('Futura-Medium.svg#Futura-Medium') format('svg'),
+		 url('Futura-Medium.woff') format('woff'),
+		 url('Futura-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: bold;
+}
+@font-face {
+	font-family: 'Futura-Medium-Italic';
+	src: url('Futura-Medium-Italic.eot?#') format('eot'),
+		 url('Futura-Medium-Italic.svg#Futura-Medium-Italic') format('svg'),
+		 url('Futura-Medium-Italic.woff') format('woff'),
+		 url('Futura-Medium-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: bold-italic;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Futura-Book';
+	content: attr(data-icon);
+	speak: none;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'Futura-Book';
+	font-style: normal;
+	speak: none;
+}
+
+.icon-export:before {
+	content: "\e006";
+}
+.icon-git:before {
+	content: "\e00f";
+}
+.icon-github:before {
+	content: "\e010";
+}
+.icon-apple:before {
+	content: "\e011";
+}
+.icon-twitter:before {
+	content: "\e00d";
+}
+.icon-feed:before {
+	content: "\e00e";
+}
+.icon-star:before {
+	content: "\e00a";
+}
+.icon-star-2:before {
+	content: "\e008";
+}
+.icon-star-3:before {
+	content: "\e009";
+}
+.icon-heart:before {
+	content: "\e001";
+}
+.icon-heart-2:before {
+	content: "\e002";
+}
+.icon-broadcast:before {
+	content: "\e003";
+}
+.icon-camera:before {
+	content: "\e014";
+}
+.icon-music:before {
+	content: "\e015";
+}
+.icon-mail:before {
+	content: "\e004";
+}
+.icon-quote:before {
+	content: "\e007";
+}
+.icon-info-circle:before {
+	content: "\e005";
+}
+.icon-info:before {
+	content: "\e00b";
+}
+.icon-install:before {
+	content: "\e017";
+}
+.icon-upload:before {
+	content: "\e00c";
+}
+.icon-link:before {
+	content: "\e012";
+}
+.icon-flag:before {
+	content: "\e013";
+}
+.icon-user:before {
+	content: "\e016";
+}

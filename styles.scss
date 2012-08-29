@@ -1,0 +1,48 @@
+@import "mixins.scss";
+@import "fonts/fonts.css";
+
+
+// VARIABLES
+
+$title-bg-color: lightblue;
+$extras-bg-color: pink;
+$link-color: goldenrod;
+$shadow-color: #888;
+
+// END VARIABLES
+
+// RESET
+
+html, body {
+	font-family: "Futura-Book";
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+h1 {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: $link-color;
+}
+a:visited {
+	color: $link-color;
+}
+
+// END RESET
+
+
+// LAYOUT
+
+.title {
+	width: 100%;
+	height: 10em;
+	background: $title-bg-color;
+}
+
+//END LAYOUT
+
+
+
+// THE REST
