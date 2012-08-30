@@ -6,7 +6,7 @@
 
 /* line 25, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 html, body {
-  font: 16px "Futura-Book";
+  font: 16px "Futura";
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -14,7 +14,7 @@ html, body {
 
 /* line 31, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 h1, p {
-  font-style: normal;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -136,7 +136,7 @@ header .info:hover {
   height: 5000px;
 }
 
-@media screen and (max-device-width: 1000px) {
+@media screen and (max-device-width: 800px) {
   /* line 118, /Volumes/750/Design & developement/Web/condimen/styles.scss */
   body {
     font-size: 2.3em;

@@ -23,13 +23,13 @@ $shadow-color: #888;
 	box-sizing: border-box;
 }
 html, body {
-	font: 16px "Futura-Book";
+	font: 16px "Futura";
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
 }
 h1, p {
-	font-style: normal;
+	font-weight: normal;
 	margin: 0;
 }
 a {
@@ -114,7 +114,7 @@ header {
 	height: 5000px;
 }
 
-@media screen and (max-device-width: 1000px) {
+@media screen and (max-device-width: 800px) {
 	body {
 		font-size: 2.3em;
 	}
