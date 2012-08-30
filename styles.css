@@ -99,11 +99,11 @@ header .info {
   -ms-transform: rotate(7deg);
   -o-transform: rotate(7deg);
   transform: rotate(7deg);
-  -webkit-transition: transform 0.2s ease 0;
-  -moz-transition: transform 0.2s ease 0;
-  -ms-transition: transform 0.2s ease 0;
-  -o-transition: transform 0.2s ease 0;
-  transition: transform 0.2s ease 0;
+  -webkit-transition: all 0.3s ease-out 0;
+  -moz-transition: all 0.3s ease-out 0;
+  -ms-transition: all 0.3s ease-out 0;
+  -o-transition: all 0.3s ease-out 0;
+  transition: all 0.3s ease-out 0;
 }
 /* line 92, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .info p {
@@ -134,11 +134,4 @@ header .info:hover {
   width: 98%;
   max-width: 1090px;
   height: 5000px;
-}
-
-@media screen and (max-device-width: 800px) {
-  /* line 118, /Volumes/750/Design & developement/Web/condimen/styles.scss */
-  body {
-    font-size: 2.3em;
-  }
 }

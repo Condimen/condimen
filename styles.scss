@@ -87,7 +87,7 @@ header {
 		background: $info-bg-color;
 		@include origin(100%, 100%);
 		@include rotate($info-angle);
-		@include transition(transform, 0.2s, ease, 0);
+		@include transition(all, 0.3s, ease-out, 0);
 
 		p {
 			max-width: 35em;
@@ -112,12 +112,6 @@ header {
 	width: 98%;
 	max-width: 1090px;
 	height: 5000px;
-}
-
-@media screen and (max-device-width: 800px) {
-	body {
-		font-size: 2.3em;
-	}
 }
 
 //END LAYOUT
