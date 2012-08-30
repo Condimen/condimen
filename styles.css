@@ -6,7 +6,7 @@
 
 /* line 25, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 html, body {
-  font: 16px "Futura";
+  font: 16px "Futura-Book";
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -99,11 +99,11 @@ header .info {
   -ms-transform: rotate(7deg);
   -o-transform: rotate(7deg);
   transform: rotate(7deg);
-  -webkit-transition: all 0.5s linear 0;
-  -moz-transition: all 0.5s linear 0;
-  -ms-transition: all 0.5s linear 0;
-  -o-transition: all 0.5s linear 0;
-  transition: all 0.5s linear 0;
+  -webkit-transition: transform 0.2s ease 0;
+  -moz-transition: transform 0.2s ease 0;
+  -ms-transition: transform 0.2s ease 0;
+  -o-transition: transform 0.2s ease 0;
+  transition: transform 0.2s ease 0;
 }
 /* line 92, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .info p {

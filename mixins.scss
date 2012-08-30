@@ -12,7 +12,7 @@
 	     -o-transform: rotate($deg);
 	        transform: rotate($deg);
 }
-@mixin transition($property: all, $duration: .5s, $function: linear, $delay: 0) {
+@mixin transition($property: all, $duration: 0.5s, $function: linear, $delay: 0) {
 	-webkit-transition: $property $duration $function $delay;
 	   -moz-transition: $property $duration $function $delay;
 	    -ms-transition: $property $duration $function $delay;
