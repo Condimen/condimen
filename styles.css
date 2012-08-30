@@ -139,6 +139,6 @@ header .info:hover {
 @media screen and (max-device-width: 1000px) {
   /* line 118, /Volumes/750/Design & developement/Web/condimen/styles.scss */
   body {
-    font-size: 2em;
+    font-size: 2.3em;
   }
 }
