@@ -21,6 +21,7 @@ $shadow-color: #888;
 // RESET
 * {
 	box-sizing: border-box;
+	-webkit-text-size-adjust: none;
 }
 html, body {
 	font: 16px "Futura-Book";
