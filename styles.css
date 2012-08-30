@@ -1,5 +1,10 @@
 @import url(fonts/fonts.css);
-/* line 16, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 22, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 25, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 html, body {
   font-family: "Futura-Book";
   margin: 0;
@@ -7,25 +12,125 @@ html, body {
   overflow-x: hidden;
 }
 
-/* line 22, /Volumes/750/Design & developement/Web/condimen/styles.scss */
-h1 {
+/* line 31, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+h1, p {
+  font-style: normal;
   margin: 0;
 }
 
-/* line 25, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 35, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 a {
   text-decoration: none;
   color: goldenrod;
 }
 
-/* line 29, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 39, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 a:visited {
   color: goldenrod;
 }
 
-/* line 38, /Volumes/750/Design & developement/Web/condimen/styles.scss */
-.title {
-  width: 100%;
+/* line 48, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header {
+  height: 16em;
+}
+/* line 51, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .title {
+  width: 120%;
   height: 10em;
+  position: absolute;
+  z-index: 2;
   background: lightblue;
+  padding-left: 4%;
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+/* line 61, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .title h1 {
+  font-size: 4.5em;
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+/* line 66, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .title nav {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0.6em;
+}
+/* line 71, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .title nav i {
+  display: none;
+}
+/* line 74, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .title nav a {
+  margin-right: 2em;
+}
+/* line 80, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .info {
+  width: 100%;
+  height: 20em;
+  position: absolute;
+  top: -12.5em;
+  z-index: 1;
+  background: pink;
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+  -webkit-transition: all 0.5s linear 0;
+  -moz-transition: all 0.5s linear 0;
+  -ms-transition: all 0.5s linear 0;
+  -o-transition: all 0.5s linear 0;
+  transition: all 0.5s linear 0;
+}
+/* line 91, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .info p {
+  max-width: 35em;
+  position: absolute;
+  bottom: 0;
+}
+/* line 96, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .info p img {
+  width: 130px;
+  margin-left: 10%;
+  margin-right: 1em;
+  float: left;
+}
+/* line 104, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+header .info:hover {
+  top: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/* line 109, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+.content {
+  margin: auto;
+  width: 98%;
+  max-width: 1090px;
+  height: 5000px;
 }

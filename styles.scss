@@ -4,22 +4,32 @@
 
 // VARIABLES
 
+$title-angle: -4deg;
+$title-height: 10em;
+
+$info-angle: 7deg;
+$info-height: $title-height + 10em;
+$info-top: -$info-height + (3*$title-height/4);
+
 $title-bg-color: lightblue;
-$extras-bg-color: pink;
+$info-bg-color: pink;
 $link-color: goldenrod;
 $shadow-color: #888;
 
 // END VARIABLES
 
 // RESET
-
+* {
+	box-sizing: border-box;
+}
 html, body {
 	font-family: "Futura-Book";
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
 }
-h1 {
+h1, p {
+	font-style: normal;
 	margin: 0;
 }
 a {
@@ -35,10 +45,72 @@ a:visited {
 
 // LAYOUT
 
-.title {
-	width: 100%;
-	height: 10em;
-	background: $title-bg-color;
+header {
+	height: $info-height * 0.8;
+
+	.title {
+		width: 120%;
+		height: $title-height;
+		position: absolute;
+		z-index: 2;
+		background: $title-bg-color;
+		padding-left: 4%;
+		@include origin(0, 100%);
+		@include rotate($title-angle);
+
+		h1 {
+			font-size: 4.5em;
+			@include origin(0, 100%);
+			@include rotate(-$title-angle);
+		}
+		nav {
+			text-transform: uppercase;
+			position: absolute;
+			bottom: 0.6em;
+
+			i {
+				display: none;
+			}
+			a {
+				margin-right: 2em;
+			}
+		}
+	}
+
+	.info {
+		width: 100%;
+		height: $info-height;
+		position: absolute;
+		top: $info-top;
+		z-index:1;
+		background: $info-bg-color;
+		@include origin(100%, 100%);
+		@include rotate($info-angle);
+		@include transition();
+
+		p {
+			max-width: 35em;
+			position: absolute;
+			bottom: 0;
+
+			img {
+				width: 130px;
+				margin-left: 10%;
+				margin-right: 1em;
+				float: left;
+			}
+		}
+	}
+	.info:hover {
+		top: 0;
+		@include rotate(0deg);
+	}
+}
+.content {
+	margin: auto;
+	width: 98%;
+	max-width: 1090px;
+	height: 5000px;
 }
 
 //END LAYOUT
