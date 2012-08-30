@@ -9,7 +9,7 @@ $title-height: 10em;
 
 $info-angle: 7deg;
 $info-height: $title-height + 10em;
-$info-top: -$info-height + (3*$title-height/4);
+$info-top: -$info-height - ($title-height/4);
 
 $title-bg-color: lightblue;
 $info-bg-color: pink;
@@ -51,7 +51,7 @@ header {
 	.title {
 		width: 120%;
 		height: $title-height;
-		position: absolute;
+		position: relative;
 		z-index: 2;
 		background: $title-bg-color;
 		padding-left: 4%;
@@ -80,7 +80,7 @@ header {
 	.info {
 		width: 100%;
 		height: $info-height;
-		position: absolute;
+		position: relative;
 		top: $info-top;
 		z-index:1;
 		background: $info-bg-color;
@@ -102,7 +102,7 @@ header {
 		}
 	}
 	.info:hover {
-		top: 0;
+		top: -$title-height;
 		@include rotate(0deg);
 	}
 }
