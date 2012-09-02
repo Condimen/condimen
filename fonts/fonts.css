@@ -26,6 +26,54 @@
 		 url('Futura-Medium-Italic.woff') format('woff'),
 		 url('Futura-Medium-Italic.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Governor';
+    src: url('Governor.eot');
+    src: url('Governor.eot?#iefix') format('embedded-opentype'),
+         url('Governor.woff') format('woff'),
+         url('Governor.ttf') format('truetype'),
+         url('Governor.svg#Governor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Pigeon';
+    src: url('Pigeon.eot');
+    src: url('Pigeon.eot?#iefix') format('embedded-opentype'),
+         url('Pigeon.woff') format('woff'),
+         url('Pigeon.ttf') format('truetype'),
+         url('Pigeon.svg#Pigeon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Quaver-Sans';
+    src: url('Quaver-Sans.eot');
+    src: url('Quaver-Sans.eot?#iefix') format('embedded-opentype'),
+         url('Quaver-Sans.woff') format('woff'),
+         url('Quaver-Sans.ttf') format('truetype'),
+         url('Quaver-Sans.svg#Quaver-Sans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Quaver-Serif';
+    src: url('Quaver-Serif.eot');
+    src: url('Quaver-Serif.eot?#iefix') format('embedded-opentype'),
+         url('Quaver-Serif.woff') format('woff'),
+         url('Quaver-Serif.ttf') format('truetype'),
+         url('Quaver-Serif.svg#Quaver-Serif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
