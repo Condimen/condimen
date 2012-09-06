@@ -7,49 +7,50 @@
 
 /* line 28, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 html, body {
+  -webkit-text-size-adjust: 200%;
   font: 22px "Garamond", "Quaver-Serif", sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-/* line 34, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 35, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 h1 {
   font-size: 2em;
   margin: 0 0 1em 0;
 }
 
-/* line 38, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 39, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 p {
   margin: 0 0 1em 0;
 }
 
-/* line 41, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 42, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 a {
   text-decoration: none;
   color: goldenrod;
 }
 
-/* line 45, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 46, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 a:visited {
   color: goldenrod;
 }
 
-/* line 54, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 55, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header {
   height: 13em;
   font: 20px "Futura", sans-serif;
 }
-/* line 58, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 59, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header h1 {
   color: #eee;
 }
-/* line 63, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 64, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header h1, header p {
   font-weight: normal;
   margin: 0;
 }
-/* line 68, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 69, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .title {
   width: 120%;
   height: 10em;
@@ -69,7 +70,7 @@ header .title {
   -o-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
-/* line 79, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 80, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .title h1 {
   font-size: 4.5em;
   display: inline-block;
@@ -84,22 +85,22 @@ header .title h1 {
   -o-transform: rotate(4deg);
   transform: rotate(4deg);
 }
-/* line 85, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 86, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .title nav {
   text-transform: uppercase;
   position: absolute;
   bottom: 0.6em;
 }
-/* line 90, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 91, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .title nav i {
   display: none;
 }
-/* line 93, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 94, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .title nav a {
   color: #fff;
   margin-right: 2em;
 }
-/* line 100, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 101, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .info {
   width: 100%;
   height: 20em;
@@ -125,20 +126,20 @@ header .info {
   -o-transition: all 0.3s ease-out 0;
   transition: all 0.3s ease-out 0;
 }
-/* line 113, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 114, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .info p {
   max-width: 35em;
   position: absolute;
   bottom: 0;
 }
-/* line 118, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 119, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .info p img {
   width: 130px;
   margin-left: 10%;
   margin-right: 1em;
   float: left;
 }
-/* line 126, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 127, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 header .info:hover {
   top: -10em;
   -webkit-transform: rotate(0deg);
@@ -148,7 +149,7 @@ header .info:hover {
   transform: rotate(0deg);
 }
 
-/* line 131, /Volumes/750/Design & developement/Web/condimen/styles.scss */
+/* line 132, /Volumes/750/Design & developement/Web/condimen/styles.scss */
 .content {
   margin: auto;
   width: 98%;
