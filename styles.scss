@@ -11,8 +11,10 @@ $info-angle: 7deg;
 $info-height: $title-height + 10em;
 $info-top: -$info-height - ($title-height/4);
 
-$title-bg-color: lightblue;
-$info-bg-color: pink;
+$title-bg: url(patterns/Classy-fabric.png), #333;
+$title-shadow-color: #000;
+$info-bg: url(patterns/Classy-fabric-Light.png), #555;
+$info-shadow-color: #222;
 $link-color: goldenrod;
 $shadow-color: #888;
 
@@ -24,6 +26,7 @@ $shadow-color: #888;
 	break-word: break-all;
 }
 html, body {
+	-webkit-text-size-adjust: 200%;
 	font: 22px "Garamond", "Quaver-Serif", sans-serif;
 	margin: 0;
 	padding: 0;
@@ -53,6 +56,11 @@ header {
 	height: $info-height * 0.65;
 	font: 20px "Futura", sans-serif;
 
+	h1 {
+		color: #eee;
+		// text-shadow: 0px 2px 3px #eee, 0px -2px 3px #000;
+	}
+
 	h1, p {
 		font-weight: normal;
 		margin: 0;
@@ -63,8 +71,9 @@ header {
 		height: $title-height;
 		position: relative;
 		z-index: 2;
-		background: $title-bg-color;
 		padding-left: 4%;
+		background: $title-bg;
+		box-shadow: 0 0 3px 2px $title-shadow-color;
 		@include origin(0, 100%);
 		@include rotate($title-angle);
 
@@ -83,6 +92,7 @@ header {
 				display: none;
 			}
 			a {
+				color: #fff;
 				margin-right: 2em;
 			}
 		}
@@ -95,7 +105,8 @@ header {
 		top: $info-top;
 		z-index:1;
 		font-size: 18px;
-		background: $info-bg-color;
+		background: $info-bg;
+		box-shadow: 0 0 3px 2px $info-shadow-color;
 		@include origin(100%, 100%);
 		@include rotate($info-angle);
 		@include transition(all, 0.3s, ease-out, 0);
